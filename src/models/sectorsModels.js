@@ -5,7 +5,7 @@ const sectorSchema = new mongoose.Schema(
     name: {
       type: String,
       required: [true, "Sector must have a name"],
-      unique: [true, "Sector must have be unique."],
+      // unique: [true, "Sector must have be unique."],
     },
     group: { type: String, required: [true, "Sector must have a name"] },
   },

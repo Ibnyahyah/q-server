@@ -19,3 +19,7 @@ mongoose
     console.log("Shutting down....");
     process.exit(0);
   });
+
+// const { injectVector } = require("./scripts/injector");
+
+// injectVector();
